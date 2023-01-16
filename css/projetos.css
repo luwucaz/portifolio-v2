@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+}
+
+.projetos-especifico{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.projetos-especifico p{
+  margin-left: 20px;
+}
+
+#projetos h2{
+ text-align: center;
+ margin-top: 50px;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    margin: 0 40px;
+  }
+}

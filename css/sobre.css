@@ -1,0 +1,25 @@
+#sobre {
+  margin: 0 100px;
+}
+
+#sobre p{
+  text-align: center;
+}
+
+.primeiro-separador {
+  border-right: 1px solid white;
+  width: 0px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#sobre {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+@media (max-width: 800px) {
+  #sobre {
+    margin: 0 50px;
+  }
+}
